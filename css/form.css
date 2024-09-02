@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../image/gog-galaxy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login{
+    border: 2px solid #00ffb8;
+    width: 773px;
+    height: 612px;
+    margin-top: 15px;
+    border-radius: 100px 0px 100px 0px;
+    background: #000000e0;
+}
+.img1{
+    width: 352px;
+    height: 612px;
+    margin-left: 419px;
+    border-radius: 0px 0px 98px 0px;
+}
+.img1 img{
+    width: 352px;
+    height: 612px;
+    border-radius: 0px 0px 98px 0px;
+}
+.form1{
+    width: 421px;
+    height: 613px;
+    margin-top: -613px;
+    margin-right: 353px;
+    border-radius: 97px 0px 0px 0px;
+}
+.login h3{
+    color: #958e8e;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-right: 218px;
+    padding-top: 7px;
+}
+.login h4{
+    color: #ab3623;
+    padding-right: 14px;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    word-spacing: 6px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+.login h1{
+    color: #ffffffd6;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 66px;
+    word-spacing: 7px;
+    padding-top: 40px;
+
+}
+.login h5{
+    color: #ffffffa1;
+    padding-right: 302px;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 100;
+}
+.login input{
+    width: 250px;
+    margin-right: 106px;
+    margin-top: 2px;
+    height: 30px;
+    background: #000000a1;
+    border: 1px solid;
+    border-color: #00ffb861;
+    text-align: center;
+    font-size: 14px;
+    font-family: monospace;
+    color: #ffffffba;
+    box-shadow: 2px 2px 2px #00ffb833;
+    outline: none;
+    border-radius: 37px;
+}
+select{
+    width: 250px;
+    margin-right: 106px;
+    margin-top: 2px;
+    height: 30px;
+    background: #000000a1;
+    border: 1px solid;
+    border-color: #00ffb861;
+    text-align: center;
+    font-size: 14px;
+    font-family: monospace;
+    color: #ffffff66;
+    box-shadow: 2px 2px 2px #00ffb833;
+    outline: none;
+    border-radius: 37px;
+}
+option{
+    width: 250px;
+    margin-right: 106px;
+    margin-top: 2px;
+    height: 30px;
+    background: #030403;
+    border: 1px solid;
+    border-color: #00ffb861;
+    text-align: center;
+    font-size: 14px;
+    font-family: monospace;
+    color: #ffffff66;
+    box-shadow: 2px 2px 2px #00ffb833;
+    outline: none;
+}
+.login button{
+    width: 200px;
+    height: 42px;
+    font-size: 17px;
+    font-family: monospace;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 2px 2px 2px #01543e;
+    background: #010406;
+    color: white;
+}

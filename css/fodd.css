@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: white;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 53px;
+    position: fixed;
+    top: 0;
+}
+.menu a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: system-ui;
+    padding: 0 18px;
+    font-weight: 600;
+}
+.menu button{
+    border-radius: 24px;
+    width: 134px;
+    height: 43px;
+    cursor: pointer;
+    font-family: system-ui;
+    background: #ff2b85;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.menu button:hover{
+    background-color: #e0346c;
+}
+.banner{
+    background: url(../image/foodpanda.jpeg);
+    width: 100%;
+    height: 436px;
+    margin-top: 74px;
+    background-size: cover;
+    background-position: center;
+}
+.banner h1{
+    padding-top: 177px;
+    color: white;
+    font-size: 59px;
+    font-family: system-ui;
+    word-spacing: 14px;
+    padding-left: 81px;
+}
+.about h1{
+    font-size: 42px;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: #343b46;
+    padding-top: 66px;
+    margin: 0 205px;
+}
+.description p{
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: #343b46;
+    padding-top: 26px;
+    margin: 0 205px;
+}
+.drivers{
+    height: 389px;
+    margin-top: 165px;
+    background-color: #f5f5f6;
+}
+.ridersimg{
+    height: 384px;
+    padding-left: 700px;
+}
+.riderp{
+    width: 504px;
+    height: 47px;
+    margin-top: -65px;
+}
+.drivers h3{
+    margin-top: -194px;
+    padding-left: 87px;
+    font-size: 33px;
+    color: #343b46;
+    font-family: system-ui;
+}
+.riderp p{
+    padding-left: 86px;
+    padding-top: 22px;
+    font-size: 19px;
+    font-family: system-ui;
+    color: #343b46;
+}
+.ourvalue{
+    border: solid;
+    height: 327px;
+}
